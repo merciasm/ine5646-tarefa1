@@ -30,6 +30,7 @@ A imagem a seguir mostra um *snapshot* da página.
 ## Procedimento para entrega e data limite
 * Clone esse repositório para sua conta Github
 * Faça as modificações necessárias, mantendo o Github atualizado
+* Ao concluir, tirar um *snapshot* (dica: extensão *Fireshot* do Chrome gera snapshots contínuos) e enviar **no Moodle**
 * A página deve ficar na conta Github do aluno, acessível pelo **Github Pages**
 * **Entrega até dia 11-setembro**
 * Instruções para criação de uma conta Git e habilitação do Github Pages: https://pt.wikihow.com/Criar-uma-Conta-no-GitHub
