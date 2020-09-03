@@ -13,7 +13,7 @@ A imagem a seguir mostra um snapshot da página.
 * Foto do(a) autor(a) com overlap no banner
 
 ## Medidas/Fontes:
-* A fonte é **Roboto Slab** com fallback para *serif* na cor **darkslategray**
+* A fonte é **Roboto Slab** (https://fonts.google.com/specimen/Roboto+Slab) com fallback para *serif* na cor **darkslategray**
 * Títulos de post têm fonte 24pt e subtítulos de 16pt
 * O banner tem altura 200px com preenchimento (padding) de 20px em cada lado
 * a imagem tem 100px de altura
