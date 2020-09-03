@@ -2,8 +2,9 @@
 Desenvolvimento de um Listicle sobre aquilo que mais gosta.
 
 Os alunos devem definir um tema de interesse e criar uma página do tipo "Listicle".
-Uma Listicle consiste em uma listagem com textos e imagens para cada item.
-A imagem a seguir mostra um *snapshot* da página.
+Uma Listicle é um artigo que consiste em uma posts com textos e imagens sobre um tópico.
+Exemplo: "10 coisas que você não sabia sobre cachorros".
+A imagem a seguir mostra um *snapshot* de uma página exemplo com o layout a ser seguido.
 
 <img src="/images/snapshot.png" width="400px">
 
