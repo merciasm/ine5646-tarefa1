@@ -4,7 +4,7 @@ Desenvolvimento de um Listicle sobre aquilo que mais gosta.
 Os alunos devem definir um tema de interesse e criar uma página do tipo "Listicle".
 Uma Listicle consiste em uma listagem com textos e imagens para cada item.
 A imagem a seguir mostra um snapshot da página.
-![SnapshotDaPagina](/images/snapshot.png)
+![SnapshotDaPagina](/images/snapshot.png | width=300px)
 
 ## Requisitos:
 * Para que possamos facilmente expandir nossa Listicle com novos itens (posts), cada entrada deve estar definida por um objeto JavaScript/JSON (a escolha do aluno)
