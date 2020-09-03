@@ -31,7 +31,7 @@ A imagem a seguir mostra um *snapshot* da página.
 * Clone esse repositório para sua conta Github
 * Faça as modificações necessárias, mantendo o Github atualizado
 * A página deve ficar na conta Github do aluno, acessível pelo **Github Pages**
-* <span style="color: red; font-weight: bold"> Entrega até dia 11-setembro </span>
+* **Entrega até dia 11-setembro**
 * Instruções para criação de uma conta Git e habilitação do Github Pages: https://pt.wikihow.com/Criar-uma-Conta-no-GitHub
 * Instruções para habilitar Github Pages: https://docs.github.com/pt/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
