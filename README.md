@@ -29,7 +29,7 @@ A imagem a seguir mostra um *snapshot* de uma página exemplo com o layout a ser
 * Gerar uma versão 2 com posts na horizontal usando **flexbox** e 100% de largura para conteúdo
 
 ## Procedimento para entrega e data limite
-* Clone esse repositório para sua conta Github
+* Crie um repositório com o nome ine5646-tarefa1 para sua conta Github
 * Faça as modificações necessárias, mantendo o Github atualizado
 * Ao concluir, tirar um *snapshot* (dica: extensão *Fireshot* do Chrome gera snapshots contínuos) e enviar **no Moodle**
 * A página deve ficar na conta Github do aluno, acessível pelo **Github Pages**
