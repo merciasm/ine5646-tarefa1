@@ -30,7 +30,7 @@ A imagem a seguir mostra um *snapshot* de uma página exemplo com o layout a ser
 
 ## Procedimento para entrega e data limite
 * Crie um repositório com o nome ine5646-tarefa1 para sua conta Github
-* Faça as modificações necessárias, mantendo o Github atualizado
+* Desenvolva a página nesse diretório/repositório, mantendo o Github atualizado
 * Ao concluir, tirar um *snapshot* (dica: extensão *Fireshot* do Chrome gera snapshots contínuos) e enviar **no Moodle**
 * A página deve ficar na conta Github do aluno, acessível pelo **Github Pages**
 * **Entrega até dia 11-setembro**
