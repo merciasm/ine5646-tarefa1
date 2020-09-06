@@ -1,9 +1,8 @@
 # ine5646-tarefa1
 
 For the matter of Development Web from UFSC, I should be able to produce a Listicle with some topic I like.
-A imagem a seguir mostra um *snapshot* de uma página exemplo com o layout a ser seguido.
+Here's an example by profesor Mateus:
 
-Here's an example by profesor Matheus
 <img src="/images/snapshot.png" width="400px">
 
 ## Requirements:
