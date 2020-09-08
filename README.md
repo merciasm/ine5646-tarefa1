@@ -22,6 +22,5 @@ Here's an example by profesor Mateus:
 * Post margin: 20px on the top and bottom, and 10px on the right and left
 
 ## Extra challenges (optional):
-* Fazer a página ser **responsiva** para ficar legível em telas pequenas (<600px)
 * Make the page ** responsive ** to be readable on small screens (<600px)
 * Generate a version 2 with horizontal posts using ** flexbox ** and 100% width for content
