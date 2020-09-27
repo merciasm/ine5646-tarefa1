@@ -10,13 +10,14 @@ class Article {
     const title = new ArticleTitle(this.articleTitle)
     const image = new ArticleImage(this.articleImage)
     const body = new ArticleBody(this.articleBody)
+    const feedback = new LikeContainer().element
     const div = new Container().element
 
     div.appendChild(title.element)
     div.appendChild(image.element)
     div.appendChild(body.element)
+    div.appendChild(feedback)
     this.list.appendChild(div)
-
   }
 }
 
@@ -48,5 +49,37 @@ class Container {
   constructor() {
     this.element = document.createElement("DIV")
     this.element.className = "post-container"
+  }
+}
+
+class LikeContainer {
+  constructor() {
+      const likeButton = document.createElement('BUTTON')
+      likeButton.className = 'like-button'
+
+      const likeCounter = document.createElement('SPAN');
+      likeCounter.innerHTML = '0';
+      likeCounter.className = 'like-counter';
+
+      this.element = document.createElement('DIV')
+      this.element.className = "like-container"
+
+      this.element.appendChild(likeButton);
+      this.element.appendChild(likeCounter);
+  }
+
+  likeOrDislike(botao1, botao2, contador1, contador2) {
+    botao1.addEventListener("click", this._changeColor);
+    botao1.addEventListener("click", function(){
+        if (contador1.innerText === "0") {
+            contador1.innerText = 1;
+            if (contador2.innerText === "1") {
+                contador2.innerText = 0;
+                $(botao2).toggleClass("visivel");
+            }
+        } else {
+            contador1.innerText = 0;
+        }
+    });
   }
 }
