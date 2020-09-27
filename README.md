@@ -1,12 +1,11 @@
-# ine5646-tarefa1
-
-For the matter of Development Web from UFSC, I should be able to produce a Listicle with some topic I like.
+# ine5646-tarefa3
+### Feedback mecanism
+For the matter of Development Web from UFSC, I should be able to develop a feedback mechanism in the listicle I've created for each post.
 
 ## Requirements:
-* In order for us to easily expand our list with new items (posts), each entry must be defined by a JavaScript / JSON object
-* Adding new posts to the DOM must also be done automatically with JavaScript
-* The header banner must contain an image
-* Author's photo with banner overlap
+* The buttons should have event listeners/handlers
+* On click they should be activated and deactivated
+* The page must be responsible
 
 ## Style:
 * Text font: **Roboto Slab** (https://fonts.google.com/specimen/Roboto+Slab) with fallback for *serif* and color **darkslategray**
@@ -17,7 +16,8 @@ For the matter of Development Web from UFSC, I should be able to produce a Listi
 * 66.76% wide centralized main section for content
 * Post (rectangular area) padding: 25px on the top, 15px on the right, 10px bottom and 15px on the left
 * Post margin: 20px on the top and bottom, and 10px on the right and left
-
-## Extra challenges (optional):
-* Make the page ** responsive ** to be readable on small screens (<600px)
-* Generate a version 2 with horizontal posts using ** flexbox ** and 100% width for content
+* the button icons height: 30px, margin: 10px
+* Button's opacity of 50%
+* Likes/dislikes counter font color: **darkslategray**
+* Likes/dislikes counter margin and padding of 0 fitting on 30% post width
+* Buttons and counters in the horizontal (You can use flexbox) and vertical centrilized aligment
