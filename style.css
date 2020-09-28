@@ -74,6 +74,17 @@ body {
   opacity: 0.5;
 }
 
+.like-button-clicked {
+  opacity: 1;
+  height: 30px;
+  width: 30px;
+  border: none;
+  margin: 10px;
+  background-image: url(assets/like.png);
+  background-size: 30px;
+  background-color: unset;
+}
+
 .like-counter {
   margin: 0px;
   padding: 0px;

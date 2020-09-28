@@ -7,15 +7,15 @@ class Article {
   }
 
   createArticle() {
-    const title = new ArticleTitle(this.articleTitle)
-    const image = new ArticleImage(this.articleImage)
-    const body = new ArticleBody(this.articleBody)
+    const title = new ArticleTitle(this.articleTitle).element
+    const image = new ArticleImage(this.articleImage).element
+    const body = new ArticleBody(this.articleBody).element
     const feedback = new LikeContainer().element
     const div = new Container().element
 
-    div.appendChild(title.element)
-    div.appendChild(image.element)
-    div.appendChild(body.element)
+    div.appendChild(title)
+    div.appendChild(image)
+    div.appendChild(body)
     div.appendChild(feedback)
     this.list.appendChild(div)
   }
@@ -64,22 +64,30 @@ class LikeContainer {
       this.element = document.createElement('DIV')
       this.element.className = "like-container"
 
-      this.element.appendChild(likeButton);
-      this.element.appendChild(likeCounter);
+      this.element.appendChild(likeButton)
+      this.element.appendChild(likeCounter)
+
+      this.like(likeButton, likeCounter)  
   }
 
-  likeOrDislike(botao1, botao2, contador1, contador2) {
-    botao1.addEventListener("click", this._changeColor);
-    botao1.addEventListener("click", function(){
-        if (contador1.innerText === "0") {
-            contador1.innerText = 1;
-            if (contador2.innerText === "1") {
-                contador2.innerText = 0;
-                $(botao2).toggleClass("visivel");
-            }
-        } else {
-            contador1.innerText = 0;
-        }
-    });
+  like(button, counter) {
+    button.addEventListener("click", function() {
+      if (counter.innerText === "0") {
+        counter.innerText = 1
+      } else if (counter.innerText === "1") {
+        counter.innerText = 0
+        this.onRemoveLikeClicked(button)
+      }
+    })
+  }
+
+  onLikeClicked(button) {
+    
+    console.log(this.button.classList)
+  }
+
+  onRemoveLikeClicked(button) {
+    button.classList.remove('.like-button')
+    button.classList.remove('like-button-clicked')
   }
 }
