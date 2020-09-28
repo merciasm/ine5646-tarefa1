@@ -5,7 +5,7 @@ For the matter of Development Web from UFSC, I should be able to develop a feedb
 ## Requirements:
 * The buttons should have event listeners/handlers
 * On click they should be activated and deactivated
-* The page must be responsible
+* The page must be responsive
 
 ## Style:
 * Text font: **Roboto Slab** (https://fonts.google.com/specimen/Roboto+Slab) with fallback for *serif* and color **darkslategray**
