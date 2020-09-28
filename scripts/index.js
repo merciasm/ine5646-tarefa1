@@ -74,20 +74,16 @@ class LikeContainer {
     button.addEventListener("click", function() {
       if (counter.innerText === "0") {
         counter.innerText = 1
+        if (button.classList.contains('like-button')) {
+          button.classList.remove('like-button')
+          button.classList.add('like-button-clicked')
+        }
       } else if (counter.innerText === "1") {
         counter.innerText = 0
-        this.onRemoveLikeClicked(button)
+        // this.onRemoveLikeClicked(button)
+        button.classList.remove('like-button-clicked')
+        button.classList.add('like-button')
       }
     })
-  }
-
-  onLikeClicked(button) {
-    
-    console.log(this.button.classList)
-  }
-
-  onRemoveLikeClicked(button) {
-    button.classList.remove('.like-button')
-    button.classList.remove('like-button-clicked')
   }
 }
