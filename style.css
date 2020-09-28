@@ -68,7 +68,7 @@ body {
   width: 30px;
   border: none;
   margin: 10px;
-  background-image: url(assets/like.png);
+  background-image: url('assets/like.png');
   background-size: 30px;
   background-color: unset;
   opacity: 0.5;
@@ -80,7 +80,7 @@ body {
   width: 30px;
   border: none;
   margin: 10px;
-  background-image: url(assets/like.png);
+  background-image: url('assets/like.png');
   background-size: 30px;
   background-color: unset;
 }
